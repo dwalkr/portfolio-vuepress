@@ -37,6 +37,8 @@ instant_preview: true
 build:
   preview_command: npm run site:build
   publish_command: npm run site:build
+  preview_env:
+  - GIT_LFS_SKIP_SMUDGE=1
   preview_output_directory: portfolio/.vuepress/dist
   output_directory: portfolio/.vuepress/dist
   instant_preview_command: npm run site:develop

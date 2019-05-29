@@ -28,7 +28,7 @@ sections:
 - type: document
   path: portfolio/config.json
   label: Site Config
-upload_dir: portfolio/.vuepress/public/upload
+upload_dir: portfolio/.vuepress
 public_path: https://priceless-kilby-362ed6.netlify.com/upload
 front_matter_path: ''
 use_front_matter_path: 

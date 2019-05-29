@@ -33,7 +33,6 @@ public_path: https://priceless-kilby-362ed6.netlify.com/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_command: npm run site:build
   publish_command: npm run site:build

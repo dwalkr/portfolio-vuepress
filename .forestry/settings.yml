@@ -41,3 +41,5 @@ build:
   preview_output_directory: portfolio/.vuepress/dist
   output_directory: portfolio/.vuepress/dist
   instant_preview_command: npm run site:develop
+  preview_docker_image: nodejs:10
+  mount_path: "/srv"
